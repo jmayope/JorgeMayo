@@ -1,5 +1,4 @@
-# JorgeMayo
-Devsu Question 1
+# Devsu Question 1
 
 # *Se realizaron las siguientes modificaciones:*
   # **BACKEND**:
