@@ -114,6 +114,6 @@ export class ProductController {
 
   private getProductsByText(text: string) {
 
-    return text ? ProductController.products.filter((product) => product.name.includes(text)) : ProductController.products;
+    return text ? ProductController.products.filter((product) => product.name.toUpperCase().includes(text.toUpperCase())) : ProductController.products;
   }
 }
